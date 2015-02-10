@@ -1,0 +1,122 @@
+/* General styles */
+
+*
+{
+font-family: proxima-nova, sans-serif;
+
+}
+
+
+/* Body */
+
+body
+{
+background-color: #F0F0ED;
+height: 100%;
+width: 100%;
+
+}
+
+/* Navigation */
+.navbar
+{
+	-webkit-border-radius: 0 !important;
+     -moz-border-radius: 0 !important;
+          border-radius: 0 !important;
+}
+
+.navbar-inverse .navbar-brand
+{
+	color: #FAFAFA;
+}
+
+.navbar-nav
+{
+	font-size: 16px;
+}
+
+/* Content */
+#main-container
+{
+	height: 100%;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+
+#content
+{
+	
+	/*margin-left: 15%;*/
+	margin-right: 15%;
+
+	width: 70%;
+	float: right;
+
+}
+
+/* Sidebar */
+
+#sidebar
+{
+	width: 14%;
+	float: left;
+}
+
+#sidebar ul
+{
+list-style-type: none;
+padding: 0px;
+margin: 0px;
+width: 70%;
+}
+
+#sidebar li
+{
+	display: block;
+	background-color: #222;
+	margin-bottom:10px;
+	height: 20px;
+
+}
+
+#sidebar a
+{
+	display: block;
+	color: white;
+	font-size: 16px;
+	line-height: 20px;
+	text-decoration: none;
+	padding-left: 10px;
+	width: 100%;
+	height: 100%;
+
+}
+
+/* Gallery */
+.carousel
+{
+	width: 80%;
+	margin-left: 10%;
+
+}
+.carousel-inner
+{
+	height: 100%;
+}
+
+
+/* Mobile */
+@media (max-width:767px)
+{
+#sidebar
+{
+	margin-left: -100%;
+}
+
+
+
+
+
+
+}
